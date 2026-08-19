@@ -299,6 +299,20 @@ h2::before {
   margin-bottom: 16px;
 }
 
+.project-links {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.project-links a {
+  color: var(--blue);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
 #projetos .stack-card h3 {
   text-transform: none;
   letter-spacing: 0;
